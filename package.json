@@ -1,0 +1,9 @@
+{
+  "name": "the-pike-clinton",
+  "version": "1.0.0",
+  "private": true,
+  "description": "The Pike (36 Killingworth Turnpike, Clinton CT 06413) — New Haven-style & grandma-style pizza, smashburgers, late-night bar site (websites lane)",
+  "main": "server.js",
+  "engines": { "node": ">=20" },
+  "scripts": { "start": "node server.js" }
+}

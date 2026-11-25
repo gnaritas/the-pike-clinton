@@ -1,0 +1,36 @@
+{
+  "slug": "the-pike-clinton",
+  "built": "2026-11-24",
+  "card": "t_ee8b8dcc",
+  "claims": [
+    {"claim": "Address: 36 Killingworth Turnpike, Clinton, CT 06413", "source": "Hartford Courant 2026-11-07 feature (https://www.courant.com/2026-11-07/new-ct-restaurant-is-opening-owners-say-goal-is-families-fun-and-affordable-food/) + CT Scoop 2026-10-20 + IG bio @thepikeclinton (06413 zip from IG bio)", "used_on": ["all pages (footer NAP)", "visit", "JSON-LD geo/PostalAddress", "map embed", "og.png"]},
+    {"claim": "Opens November 2026 (no exact day verified)", "source": "Courant: 'set to open this month' (2026-11-07); CT Scoop: 'Look for them to open in November!' (2026-10-20). Exact opening day NOT verified — copy says 'now opening' / 'opens in November 2026', never a date.", "used_on": ["home kicker", "visit", "our-story", "FAQ", "og.png kicker"]},
+    {"claim": "Co-owners Jake (Jacob) Mastroianni and Joseph Giordano, cousins; Giordano made New Haven-style pizza at this address for a decade; Mastroianni (30, Clinton native) also runs Bacari Social (Westbrook) and helped launch J&M Dockside (Clinton); both work the line", "source": "Courant 2026-11-07 (direct quotes + ownership); CT Scoop cites state filings naming Jacob Mastroianni + Joe Giordano", "used_on": ["our-story", "pizza", "story teaser", "menu pizza item"]},
+    {"claim": "Menu concept: New Haven-style pizza + 'grandma style' Sicilian/Detroit-esque pan pizzas, smashburgers, fried chicken, variety of appetizers, craft cocktails, pitchers", "source": "Courant 2026-11-07 paragraph ('The 1,100-square-foot restaurant will serve...') + FB page tagline 'Pizza. Smash Burgers. & More! Craft Cocktails. Pitchers. Lounge' (card-verified, Page 61596137967520) + IG bio", "used_on": ["menu hub", "pizza", "smashburgers-fried-chicken", "late-nights", "cards", "meta descriptions", "og.png"]},
+    {"claim": "Late nights: open until 1 a.m. Fri/Sat/Sun serving drinks, pizza slices and fryolator items incl. wings and fried pickles", "source": "Courant 2026-11-07 ('The restaurant will be open until 1 a.m. on Friday, Saturday and Sunday, serving drinks, pizza slices and fryolator items including wings and fried pickles')", "used_on": ["facts band", "late-nights", "FAQ", "footer line", "og.png bottom line", "JSON-LD copy"]},
+    {"claim": "Interior: 'simplistically modern'/minimalistic; dark black large-tile bar face with 9-ft white clouded marble top; 7-8 TVs; pool table; 1,100 sq ft", "source": "Courant 2026-11-07. (CT Scoop also mentions dart boards — dropped as single weaker source.)", "used_on": ["late-nights 'the room'", "facts band", "our-story rebuild line"]},
+    {"claim": "Affordable framing, incl. owner's $14-smashburger-vs-$20-steakburger comparison", "source": "Courant 2026-11-07 owner quote; used as blockquote with attribution on smashburgers-fried-chicken panel only; no prices presented as menu prices anywhere", "used_on": ["smashburgers panel"]},
+    {"claim": "Press quotes used on-site (hang-out/affordable-food; elevate-the-cocktail-scene)", "source": "Courant 2026-11-07, attributed in copy", "used_on": ["home quote strip", "late-nights lead", "menu bar item", "our-story blockquote"]},
+    {"claim": "Building formerly housed Chow Food and Beverage for 10 years, closed 2026; former owner Jeff Mastroianni (Jake's father) per press", "source": "Courant 2026-11-07; CT Scoop ('former Chow/Ciao space')", "used_on": ["visit FAQ", "our-story"]},
+    {"claim": "Socials: facebook.com/61596137967520, instagram.com/thepikeclinton", "source": "Card FB page id + Courant links both profiles; IG profile fetched 2026-11-24 (bio shows address, 835 followers)", "used_on": ["footer", "JSON-LD sameAs", "contact/visit CTAs"]},
+    {"claim": "Geo point 41.2953732,-72.5328127", "source": "OSM Nominatim forward-geocode of the street address, 2026-11-24 (approximation on the turnpike; noted in JSON-LD only)", "used_on": ["JSON-LD geo"]},
+    {"claim": "No phone, no opening-day hours, no menu prices on site", "rationale": "not independently verified — banned facts (card acceptance rule); contact = form + socials only; server.js 502 fallback copy points to Instagram DM, never a phone", "used_on": ["deliberate omission"]}
+  ],
+  "no_site_evidence": {
+    "owner_domain": "thepikeclinton.com",
+    "probes_2026_11_24": {
+      "rdap_verisign_com": "thepikeclinton.com -> 200 registered; clintonpike/pikect/thepikect/thepikeclintonct/thepikepizza/pikeclinton/thepike-restaurant/thepikeclinton.net -> 404 unregistered",
+      "http_chrome_ua": "apex + www -> HTTP 404, Wix 'ConnectYourDomain' error page (185.230.63.x Wix IPs) = placeholder, not a site",
+      "wayback_cdx": "thepikeclinton.com -> zero captures",
+      "serp": "\"The Pike\" Clinton queries: no own-brand live domain ranked (homonyms only: pike.com infrastructure, thepikepittsburgh.com PA, thepike.org TN church, thepike.com CF shell, pikerestaurant.com Long Beach CA)",
+      "variant_matrix_recheck": "thepike.net 114-byte shell; thepike.org Hartsville TN Church of Christ; the-pike.com park shell; pikerestaurant.com other business — card matrix re-confirmed at dispatch + handle-derived stems swept"
+    },
+    "pitch_angle": "GBP website field points at thepikeclinton.com which serves a Wix 404 placeholder — domain is live, site is not"
+  },
+  "owner_email": {
+    "email": "info@bacarisocial.com",
+    "provenance": "self-published NAP footer on Bacari Social's own site https://bacarisocial.com/menu (63 Pilots Point Drive + 860-339-5377 in same block); Courant names Jake Mastroianni as Bacari Social owner -> group-shared family inbox, tie-verified",
+    "inbox_pitch_count": 0
+  },
+  "design": "coal & marble — bar-room charcoal #15161a / marble-paper #f5f3ee / ember #c2452b / bar-glow gold #c9a24b; uppercase condensed sans display + serif body (inverse of lane lineage); zero third-party JS; single local stylesheet; system font stack"
+}
