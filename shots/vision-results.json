@@ -1,0 +1,397 @@
+{
+ "contact_desktop.png": {
+  "defects": [
+   {
+    "where": "Footer",
+    "what": "The text 'Open until 1 a.m. Friday, Saturday & Sunday. Follow for opening-day posts.' is cut off on the right side, indicating horizontal overflow.",
+    "severity": "med"
+   }
+  ],
+  "clean": false
+ },
+ "contact_mobile.png": {
+  "defects": [
+   {
+    "where": "Footer",
+    "what": "The text 'Open until 1 a.m. Friday, Saturday & Sunday. Follow for opening-day posts.' is clipped horizontally, indicating a horizontal overflow issue.",
+    "severity": "high"
+   }
+  ],
+  "clean": false
+ },
+ "index_desktop.png": {
+  "defects": [
+   {
+    "where": "Main hero section, description text",
+    "what": "The dash in '\u2014 and Friday through Sunday' is very close to the word 'and', almost touching, which could be perceived as a visual defect or poor spacing.",
+    "severity": "low"
+   },
+   {
+    "where": "Footer, 'New Haven-style & grandma-style pizza...' text",
+    "what": "The text 'New Haven-style & grandma-style pizza, smashburgers \u2022 fried chicken \u2022 cocktails.' is slightly misaligned to the right, not perfectly centered or left-aligned with the other footer content, creating an awkward visual gap on the left.",
+    "severity": "low"
+   },
+   {
+    "where": "Footer, 'Facebook \u2022 Instagram' links",
+    "what": "The 'Facebook \u2022 Instagram' links are also misaligned to the right, similar to the text above them, and not aligned with the other footer content.",
+    "severity": "low"
+   },
+   {
+    "where": "Footer, 'Open until 1 a.m. Friday, Saturday & Sunday. Follow for opening-day posts.' text",
+    "what": "This text is also misaligned to the right, creating an inconsistent layout in the footer.",
+    "severity": "low"
+   }
+  ],
+  "clean": false
+ },
+ "index_mobile.png": {
+  "defects": [
+   {
+    "where": "Header section, main content area",
+    "what": "The text 'NOW OPENING \u00b7 CLINTON, CONNECTICUT' is slightly cut off on the right side, indicating a horizontal overflow or insufficient padding for the text container.",
+    "severity": "low"
+   },
+   {
+    "where": "Footer, copyright line",
+    "what": "The copyright text '\u00a9 2026 THE PIKE \u00b7 CLINTON, CT' is slightly cut off on the right side, indicating a horizontal overflow or insufficient padding for the text container.",
+    "severity": "low"
+   }
+  ],
+  "clean": false
+ },
+ "late-nights_desktop.png": {
+  "defects": [
+   {
+    "where": "Footer",
+    "what": "The text 'Open until 1 a.m. Friday, Saturday & Sunday. Follow for opening-day posts.' is misaligned with the content above it and the copyright text below, creating an awkward visual gap and an inconsistent layout.",
+    "severity": "low"
+   },
+   {
+    "where": "Footer",
+    "what": "The social media links 'Facebook' and 'Instagram' are not aligned with the text above them ('New Haven-style & grandma-style pizza, smashburgers \u2022 fried chicken \u2022 cocktails.') or the text below them, creating a visual disconnect in the footer's right column.",
+    "severity": "low"
+   }
+  ],
+  "clean": false
+ },
+ "late-nights_mobile.png": {
+  "defects": [
+   {
+    "where": "Footer",
+    "what": "The text 'New Haven-style & grandma-style pizza, smashburgers \u2022 fried chicken \u2022 cocktails.' is cut off horizontally, indicating content overflow.",
+    "severity": "high"
+   }
+  ],
+  "clean": false
+ },
+ "menu_desktop.png": {
+  "defects": [
+   {
+    "where": "Footer, right column, 'Facebook' and 'Instagram' links",
+    "what": "The 'Facebook' and 'Instagram' links are not aligned with the text above them. They are shifted slightly to the left.",
+    "severity": "low"
+   },
+   {
+    "where": "Footer, right column, 'Open until 1 a.m. Friday, Saturday & Sunday. Follow for opening-day posts.'",
+    "what": "This line of text is not aligned with the text above it. It is shifted slightly to the left.",
+    "severity": "low"
+   }
+  ],
+  "clean": false
+ },
+ "menu_mobile.png": {
+  "defects": [
+   {
+    "where": "Footer",
+    "what": "The text 'New Haven-style & grandma-style pizza, smashburgers fried chicken cocktails.' is slightly cut off on the right side, indicating horizontal overflow.",
+    "severity": "low"
+   }
+  ],
+  "clean": false
+ },
+ "notfound_desktop.png": {
+  "defects": [
+   {
+    "where": "Footer - 'Open until 1 a.m. Friday, Saturday & Sunday. Follow for opening-day posts.'",
+    "what": "Text is cut off/clipped at the bottom, indicating a potential line-height or container height issue.",
+    "severity": "med"
+   }
+  ],
+  "clean": false
+ },
+ "notfound_mobile.png": {
+  "defects": [
+   {
+    "where": "404 page main heading",
+    "what": "Text 'THAT PAGE NEVER MADE IT TO THE TABLE.' is cut off on the right side, indicating horizontal overflow or incorrect text wrapping for the mobile width.",
+    "severity": "high"
+   },
+   {
+    "where": "404 page descriptive text",
+    "what": "The sentence 'This page doesn't exist \u2014 but the slices are still on the rail.' is cut off on the right side, indicating horizontal overflow or incorrect text wrapping.",
+    "severity": "high"
+   },
+   {
+    "where": "Footer copyright text",
+    "what": "The copyright text '\u00a9 2026 THE PIKE \u00b7 CLINTON, CT' is cut off on the right side, indicating horizontal overflow.",
+    "severity": "high"
+   }
+  ],
+  "clean": false
+ },
+ "our-story_desktop.png": {
+  "defects": [
+   {
+    "where": "Footer",
+    "what": "The text 'Open until 1 a.m. Friday, Saturday & Sunday. Follow for opening-day posts.' is overlapping with the copyright text '\u00a9 2026 THE PIKE - CLINTON, CT'.",
+    "severity": "med"
+   }
+  ],
+  "clean": false
+ },
+ "our-story_mobile.png": {
+  "defects": [
+   {
+    "where": "Header navigation",
+    "what": "The hamburger menu icon is slightly misaligned vertically with the 'THE PIKE' logo and 'CLINTON \u2022 CONNECTICUT' text. It sits a pixel or two too high.",
+    "severity": "low"
+   },
+   {
+    "where": "Buttons 'THE PIZZA' and 'LATE NIGHTS'",
+    "what": "The two buttons are not aligned horizontally. 'LATE NIGHTS' is positioned slightly lower than 'THE PIZZA'.",
+    "severity": "low"
+   },
+   {
+    "where": "Footer - 'New Haven-style & grandma-style pizza, smashburgers \u2022 fried chicken \u2022 cocktails.'",
+    "what": "The text 'smashburgers \u2022 fried chicken \u2022 cocktails.' is slightly cut off on the right side, indicating a horizontal overflow issue.",
+    "severity": "med"
+   },
+   {
+    "where": "Footer - 'Facebook \u2022 Instagram'",
+    "what": "The text 'Facebook \u2022 Instagram' is slightly cut off on the right side, indicating a horizontal overflow issue.",
+    "severity": "med"
+   }
+  ],
+  "clean": false
+ },
+ "pizza_desktop.png": {
+  "defects": [
+   {
+    "where": "Footer",
+    "what": "The horizontal rule above 'New Haven-style & grandma-style pizza...' is misaligned with the text below it. It appears to be cut off or not extending fully to the left.",
+    "severity": "low"
+   },
+   {
+    "where": "Footer",
+    "what": "The text 'Facebook \u2022 Instagram' is not aligned with the content above it ('New Haven-style & grandma-style pizza...') or the text below it ('Open until 1 a.m. Friday, Saturday & Sunday...'). It appears to be shifted slightly to the right.",
+    "severity": "low"
+   },
+   {
+    "where": "Footer",
+    "what": "The text 'Open until 1 a.m. Friday, Saturday & Sunday. Follow for opening-day posts.' is not aligned with the content above it ('Facebook \u2022 Instagram') or the copyright text below it. It appears to be shifted slightly to the right.",
+    "severity": "low"
+   },
+   {
+    "where": "Footer",
+    "what": "The copyright text '\u00a9 2026 THE PIKE \u2022 CLINTON, CT' is not horizontally centered within the footer section, or aligned with any other content, making it appear misaligned.",
+    "severity": "low"
+   }
+  ],
+  "clean": false
+ },
+ "pizza_mobile.png": {
+  "defects": [
+   {
+    "where": "Header navigation (hamburger menu)",
+    "what": "The hamburger menu icon is slightly misaligned vertically within its container. It appears to be shifted a pixel or two upwards.",
+    "severity": "low"
+   },
+   {
+    "where": "Main content section (New Haven-Style. Grandma-Style.)",
+    "what": "The 'FULL MENU' and 'GET DIRECTIONS' buttons are not aligned horizontally. 'GET DIRECTIONS' is slightly lower than 'FULL MENU'.",
+    "severity": "low"
+   },
+   {
+    "where": "Footer",
+    "what": "The text 'Open until 1 a.m. Friday, Saturday & Sunday. Follow for opening-day posts.' is slightly cut off on the right side, indicating a potential horizontal overflow issue or insufficient padding for the text block.",
+    "severity": "low"
+   }
+  ],
+  "clean": false
+ },
+ "privacy_desktop.png": {
+  "defects": [
+   {
+    "where": "Footer",
+    "what": "The horizontal rule above 'New Haven-style & grandma-style pizza...' is misaligned. It should either span the full width of the content or be aligned with the text below it.",
+    "severity": "low"
+   },
+   {
+    "where": "Footer",
+    "what": "The text 'Open until 1 a.m. Friday, Saturday & Sunday. Follow for opening-day posts.' is not aligned with the content above it (the horizontal rule and the pizza/smashburger text). It appears to be shifted slightly to the right.",
+    "severity": "low"
+   }
+  ],
+  "clean": false
+ },
+ "privacy_mobile.png": {
+  "defects": [
+   {
+    "where": "Header",
+    "what": "The text 'CONNECTICUT' in the header is cut off horizontally.",
+    "severity": "high"
+   },
+   {
+    "where": "Footer - Address",
+    "what": "The address '36 Killingworth Turnpike' is cut off horizontally.",
+    "severity": "high"
+   },
+   {
+    "where": "Footer - Menu Items",
+    "what": "The menu items 'smashburgers \u2022 fried chicken \u2022 cocktails.' are cut off horizontally.",
+    "severity": "high"
+   },
+   {
+    "where": "Footer - Opening Hours",
+    "what": "The opening hours 'Open until 1 a.m. Friday, Saturday & Sunday. Follow' are cut off horizontally.",
+    "severity": "high"
+   }
+  ],
+  "clean": false
+ },
+ "smashburgers-fried-chicken_desktop.png": {
+  "defects": [
+   {
+    "where": "Footer",
+    "what": "The 'Facebook' and 'Instagram' links are misaligned. 'Facebook' is slightly to the left of 'Instagram', breaking the visual grid.",
+    "severity": "low"
+   },
+   {
+    "where": "Footer",
+    "what": "The copyright text '\u00a9 2026 THE PIKE \u00b7 CLINTON, CT' is not vertically aligned with the 'Open until 1 a.m. Friday, Saturday & Sunday. Follow for opening-day posts.' text. There's a slight vertical offset.",
+    "severity": "low"
+   }
+  ],
+  "clean": false
+ },
+ "smashburgers-fried-chicken_mobile.png": {
+  "defects": [
+   {
+    "where": "Header",
+    "what": "The navigation menu icon (hamburger) is misaligned with the 'THE PIKE' logo. It sits slightly lower than the baseline of the logo text.",
+    "severity": "low"
+   },
+   {
+    "where": "Main content area, 'SMASHBURGERS' section",
+    "what": "The text 'steakburger math.' is cut off at the bottom, indicating a potential clipping issue or insufficient padding/margin.",
+    "severity": "med"
+   },
+   {
+    "where": "Footer",
+    "what": "The text 'New Haven-style & grandma-style pizza, smashburgers \u2022 fried chicken \u2022 cocktails.' has a very long line length for mobile, which can be hard to read. While not strictly a defect, it's poor mobile typography.",
+    "severity": "low"
+   },
+   {
+    "where": "Footer",
+    "what": "The copyright text '\u00a9 2026 THE PIKE \u2022 CLINTON, CT' is very small and has low contrast against the dark background, making it difficult to read.",
+    "severity": "low"
+   }
+  ],
+  "clean": false
+ },
+ "thanks_desktop.png": {
+  "defects": [
+   {
+    "where": "Footer, right column",
+    "what": "The text 'New Haven-style & grandma-style pizza, smashburgers \u2022 fried chicken \u2022 cocktails.' is not vertically aligned with the 'THE PIKE' heading in the left column. It appears to be pushed down, creating an imbalance.",
+    "severity": "low"
+   },
+   {
+    "where": "Footer, right column",
+    "what": "The text 'Open until 1 a.m. Friday, Saturday & Sunday. Follow for opening-day posts.' is misaligned to the left compared to the content above it in the same column.",
+    "severity": "low"
+   },
+   {
+    "where": "Footer, right column",
+    "what": "The 'Facebook \u2022 Instagram' links are misaligned to the left compared to the content above it in the same column.",
+    "severity": "low"
+   }
+  ],
+  "clean": false
+ },
+ "thanks_mobile.png": {
+  "defects": [
+   {
+    "where": "Main content area, 'YOUR MESSAGE IS IN.' heading",
+    "what": "The heading 'YOUR MESSAGE IS IN.' is broken into three lines, with 'IN.' on its own line. While not strictly a 'text overlap or clipping' issue, it's an orphaned line that could be better presented on two lines for improved readability and visual balance, especially given the ample horizontal space.",
+    "severity": "low"
+   },
+   {
+    "where": "Footer, 'New Haven-style & grandma-style pizza, smashburgers \u00b7 fried chicken \u00b7 cocktails.'",
+    "what": "The text 'New Haven-style & grandma-style pizza, smashburgers \u00b7 fried chicken \u00b7 cocktails.' is wrapping awkwardly, with 'cocktails.' on its own line. This creates an orphaned word and could be better formatted to utilize the available width more effectively or break at a more natural point.",
+    "severity": "low"
+   },
+   {
+    "where": "Footer, 'Open until 1 a.m. Friday, Saturday & Sunday. Follow for opening-day posts.'",
+    "what": "The text 'Open until 1 a.m. Friday, Saturday & Sunday. Follow for opening-day posts.' is wrapping awkwardly, with 'for opening-day posts.' on its own line. This creates an orphaned line and could be better formatted to utilize the available width more effectively or break at a more natural point.",
+    "severity": "low"
+   }
+  ],
+  "clean": false
+ },
+ "visit_desktop.png": {
+  "defects": [
+   {
+    "where": "Header Navigation",
+    "what": "The 'LATE NIGHTS' menu item is slightly cut off on the right side, indicating a potential horizontal overflow or incorrect spacing.",
+    "severity": "low"
+   },
+   {
+    "where": "Main Heading (36 KILLINGWORTH TURNPIKE CLINTON, CONNECTICUT)",
+    "what": "The word 'CONNECTICUT' is slightly cut off on the right side, indicating a potential horizontal overflow or incorrect spacing for the large heading.",
+    "severity": "low"
+   },
+   {
+    "where": "Map Data link in Google Map embed",
+    "what": "The 'Map Data' link is partially obscured by the Google Maps logo/icon, making it difficult to read.",
+    "severity": "low"
+   },
+   {
+    "where": "Footer - Right Column",
+    "what": "The text 'New Haven-style & grandma-style pizza, smashburgers \u2022 fried chicken \u2022 cocktails.' is slightly cut off on the right side, indicating a potential horizontal overflow or incorrect spacing.",
+    "severity": "low"
+   },
+   {
+    "where": "Footer - Right Column",
+    "what": "The text 'Open until 1 a.m. Friday, Saturday & Sunday. Follow for opening-day posts.' is slightly cut off on the right side, indicating a potential horizontal overflow or incorrect spacing.",
+    "severity": "low"
+   }
+  ],
+  "clean": false
+ },
+ "visit_mobile.png": {
+  "defects": [
+   {
+    "where": "Header",
+    "what": "The hamburger menu icon is slightly misaligned vertically with the 'THE PIKE' text. It sits a few pixels too high.",
+    "severity": "low"
+   },
+   {
+    "where": "Main content area, under 'QUESTIONS BEFORE OPENING?'",
+    "what": "There is a large, empty, light-colored rectangular box that appears to be a placeholder for an image or a contact form. It's currently blank and serves no functional purpose, making it a visual defect.",
+    "severity": "med"
+   },
+   {
+    "where": "Footer",
+    "what": "The text 'New Haven-style & grandma-style pizza, smashburgers \u2022 fried chicken \u2022 cocktails.' has a very tight line height, causing the descenders of the first line to almost touch the ascenders of the second line, making it slightly harder to read.",
+    "severity": "low"
+   },
+   {
+    "where": "Footer",
+    "what": "The text 'Open until 1 a.m. Friday, Saturday & Sunday. Follow for opening-day posts.' also has very tight leading, making it appear cramped and less readable.",
+    "severity": "low"
+   }
+  ],
+  "clean": false
+ }
+}
